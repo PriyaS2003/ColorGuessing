@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Color Game Project
+        </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="ColorGame.css">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="head_color" class="jumbotron jumbotron-fluid text-center py-1 my-0">
+            <h1 class="display-5">The Color <br><span id="head_rgb" class="display-3">RGB( FILL, FILL, FILL)</span> <br> Guessing Game</h1>
+            <p class="lead">( Guess the Color from above mentioned RGB Code. )</p>
+        </div>
+        <div id="strip" class="container-fluid">
+            <div class="container">
+                <button id="reset" class="btn m-0 rounded-0">NEW COLORS</button>
+                <span class="" id="message">Guess the Color.</span>
+                <button id="easybtn" class="btn rounded-0">EASY</button>
+                <button id="hardbtn" class="btn rounded-0 selected">HARD</button>
+            </div>
+        </div>
+        <div id="container">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+
+        <script type="text/javascript" src="ColorGame.js"></script>
+    </body>
+</html>
